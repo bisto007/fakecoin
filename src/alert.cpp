@@ -20,7 +20,7 @@ map<uint256, CAlert> mapAlerts;
 CCriticalSection cs_mapAlerts;
 
 static const char* pszMainKey = "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9";
-static const char* pszTestKey = "04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a";
+static const char* pszTestKey = "04ee8b18c7fadc02c47aa97dcecdba75804feb38f9458cf7eb2898a93a86aca19179b802984e54ab9796c821f15a83e7f2102ec592c84c61edac01795c766a1e70";
 
 void CUnsignedAlert::SetNull()
 {
